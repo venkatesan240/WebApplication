@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    text-align:right;
+    list-style: none;
+    margin-bottom: 1px;
+}
+.menu{
+    background-color:rgb(55, 164, 62);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+nav li{
+display: inline-flex;
+padding: 5px 30px;
+font-weight: 100px;
+font-size: medium;
+}
+h1{
+color:black;
+text-align: center;
+margin-left: 40px;
+}
+a{
+text-decoration: none;
+color:whitesmoke;
+}
+a:hover{
+color:greenyellow;
+}
+body{
+    background-position: center;
+    min-height: 80vh;
+    background-size: cover;
+}
+.container {
+    width: 350px;
+    padding: 20px;
+    margin: 80px auto;
+    border: 2px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgb(40, 33, 33) 0px 3px 8px 6px;
+  }
+  input[type="text"],
+  input[type="number"]{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+  }
+  
+  input[type="submit"] {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(158, 51, 87);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  h2 {
+    text-align: center;
+    color:  darkblue;
+    padding-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  
+  label {
+    display:ruby-base;
+    color: darkblue;
+  }
+ 
