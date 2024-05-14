@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    text-align:right;
+    list-style: none;
+    margin-bottom: 1px;
+}
+.menu{
+    background-color:rgb(55, 164, 62);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+nav li{
+display: inline-flex;
+padding: 5px 30px;
+font-weight: 100px;
+font-size: medium;
+}
+h1{
+color:black;
+text-align: center;
+margin-left: 40px;
+}
+a{
+text-decoration: none;
+color:whitesmoke;
+}
+a:hover{
+color:greenyellow;
+}
+body{
+    background-position: right;
+    min-height: 80vh;
+    background-size: cover;
+    background-image: url("img/peppers-space-left.jpg");
+}
+.container {
+    width: 400px;
+    padding: 30px;
+    margin: 120px auto;
+    border: 2px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgb(40, 33, 33) 0px 3px 8px 6px;
+  }
+  input[type="text"],
+  input[type="number"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(206, 37, 37);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  input[type="submit"]:hover{
+    background-color: rgb(23, 178, 59);
+    transform: scale(1.1);
+    transition: all ease 0.3s;
+  }
+  h2 {
+    text-align: center;
+    color:  rgb(223, 18, 18);
+    padding-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  
+  label {
+    display:ruby-base;
+    color: darkblue;
+    padding-bottom: 5px;
+    font-size: 1.1em;
+  }
+ 
